@@ -15,7 +15,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Time Series Analysis
 
-### 1. Wildlife Strikes by Year (`images/wildlife_strikes_by_year.png`)
+![Wildlife Strikes by Year](images/wildlife_strikes_by_year.png "Annual trend of wildlife strikes from 1990-2015")
 
 **Interpretation:**
 - **Upward Trend**: The graph shows a clear and concerning upward trend in wildlife strikes from 1990 to 2015
@@ -29,7 +29,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: The dramatic increase suggests wildlife strikes are a growing aviation safety concern that requires ongoing attention and mitigation efforts.
 
-### 2. Wildlife Strikes by Month (`wildlife_strikes_by_month.png`)
+![Wildlife Strikes by Month](images/wildlife_strikes_by_month.png "Seasonal distribution of wildlife strikes throughout the year")
 
 **Interpretation:**
 - **Seasonal Pattern**: Clear seasonal variation with peak activity during summer months
@@ -43,7 +43,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Operator and Aircraft Analysis
 
-### 3. Top 10 Operators by Number of Strikes (`top_operators_strikes.png`)
+![Top 10 Operators by Number of Strikes](images/top_operators_strikes.png "Airlines and operators with highest wildlife strike incidents")
 
 **Interpretation:**
 - **Business Aviation**: "BUSINESS" operators lead with 8,177 strikes, indicating high exposure due to frequent operations
@@ -52,7 +52,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: The distribution correlates with flight volume and operational patterns, suggesting risk mitigation should be proportional to operational intensity.
 
-### 4. Top 10 Aircraft Types in Wildlife Strikes (`aircraft_types_strikes.png`)
+![Top 10 Aircraft Types in Wildlife Strikes](images/aircraft_types_strikes.png "Most frequently involved aircraft types in wildlife incidents")
 
 **Interpretation:**
 - **Type A Dominance**: Type A aircraft (likely commercial jets) account for 48,957 strikes - the vast majority
@@ -61,7 +61,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: Commercial aircraft are most frequently involved, likely due to their numbers and operational patterns in wildlife-rich environments.
 
-### 5. Distribution of Engine Types (`engine_types_strikes.png`)
+![Distribution of Engine Types](images/engine_types_strikes.png "Engine types most commonly involved in wildlife strikes")
 
 **Interpretation:**
 - **Type D Engines**: Type D engines (likely turbofan) dominate with 35,567 strikes
@@ -70,7 +70,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: Jet engine design and wildlife ingestion protection should remain a priority for aircraft manufacturers.
 
-### 6. Number of Engines Distribution (`engines_distribution.png`)
+![Number of Engines Distribution](images/engines_distribution.png "Distribution of aircraft engine count in wildlife strike incidents")
 
 **Interpretation:**
 - **Twin-Engine Dominance**: Aircraft with 2 engines account for 40,420 strikes (80%+ of incidents)
@@ -83,7 +83,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Geographic Analysis
 
-### 7. Top 10 States with Most Wildlife Strikes (`top_states_strikes.png`)
+![Top 10 States with Most Wildlife Strikes](images/top_states_strikes.png "US states with highest wildlife strike frequencies")
 
 **Interpretation:**
 - **California Leadership**: California leads with 4,707 strikes, likely due to:
@@ -96,7 +96,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: Geographic risk assessment should focus on high-traffic states with diverse wildlife populations.
 
-### 8. Wildlife Strikes by FAA Region (`faa_regions_strikes.png`)
+![Wildlife Strikes by FAA Region](images/faa_regions_strikes.png "Regional distribution of wildlife strikes across FAA regions")
 
 **Interpretation:**
 - **AEA Region Dominance**: AEA (Eastern) region leads with 9,797 strikes
@@ -108,7 +108,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: FAA regions should develop region-specific wildlife management strategies based on local risk factors.
 
-### 9. Top 10 Airports with Most Wildlife Strikes (`top_airports_strikes.png`)
+![Top 10 Airports with Most Wildlife Strikes](images/top_airports_strikes.png "Airports experiencing highest wildlife strike incidents")
 
 **Interpretation:**
 - **Dallas/Fort Worth Leadership**: DFW airport leads with 1,153 strikes, likely due to:
@@ -120,7 +120,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: High-traffic airports require enhanced wildlife management programs proportional to their operational intensity.
 
-### 10. State vs FAA Region Wildlife Strikes Heatmap (`state_faa_region_heatmap.png`)
+![State vs FAA Region Wildlife Strikes Heatmap](images/state_faa_region_heatmap.png "Geographic clustering of wildlife strikes by state and FAA region")
 
 **Interpretation:**
 - **Regional Patterns**: The heatmap reveals clustering patterns between states and FAA regions
@@ -134,7 +134,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Wildlife Species Analysis
 
-### 11. Top 20 Wildlife Species Involved in Aircraft Strikes (`top_wildlife_species.png`)
+![Top 20 Wildlife Species Involved in Aircraft Strikes](images/top_wildlife_species.png "Most frequently involved wildlife species in aircraft strikes")
 
 **Interpretation:**
 - **Gull Dominance**: Gulls lead with 5,741 strikes, likely due to:
@@ -150,7 +150,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Flight Operations Analysis
 
-### 12. Flight Impact Distribution from Wildlife Strikes (`flight_impact_distribution.png`)
+![Flight Impact Distribution from Wildlife Strikes](images/flight_impact_distribution.png "Operational impact severity of wildlife strikes on flights")
 
 **Interpretation:**
 - **No Damage Majority**: 35,883 strikes (84.8%) result in no damage, indicating most wildlife strikes are minor events
@@ -160,7 +160,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: While most strikes cause no damage, the operational impact (precautionary landings) represents significant costs and disruptions.
 
-### 13. Distribution of Wildlife Strike Altitudes (`altitude_distribution.png`)
+![Distribution of Wildlife Strike Altitudes](images/altitude_distribution.png "Altitude distribution showing wildlife strike occurrence patterns")
 
 **Interpretation:**
 - **Low-Altitude Concentration**: The log-scale distribution shows most strikes occur at low altitudes
@@ -170,7 +170,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 **Key Insight**: Wildlife strike risk is concentrated below 1,000 feet, during the most critical phases of flight.
 
-### 14. Wildlife Strikes by Phase of Flight (`phase_of_flight_distribution.png`)
+![Wildlife Strikes by Phase of Flight](images/phase_of_flight_distribution.png "Flight phases most vulnerable to wildlife strikes")
 
 **Interpretation:**
 - **Approach Phase Dominance**: 16,865 strikes occur during approach (33.4% of total)
@@ -184,7 +184,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Cost and Damage Analysis
 
-### 15. Damage Severity Distribution (`damage_distribution.png`)
+![Damage Severity Distribution](images/damage_distribution.png "Severity levels of aircraft damage from wildlife strikes")
 
 **Interpretation:**
 - **Minimal Damage Prevalence**: The vast majority of strikes cause no or minimal damage
