@@ -15,7 +15,7 @@ This document provides detailed interpretations of all visualizations generated 
 
 ## Time Series Analysis
 
-### 1. Wildlife Strikes by Year (`wildlife_strikes_by_year.png`)
+### 1. Wildlife Strikes by Year (`images/wildlife_strikes_by_year.png`)
 
 **Interpretation:**
 - **Upward Trend**: The graph shows a clear and concerning upward trend in wildlife strikes from 1990 to 2015
